@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS 重置 */
+body, div, p, h1, h2, h3, h4,
+ul, li, dl, dt, dd, ol, form, table, tr, td,
+span, label, input, select, option, a, img, i,
+em, strong, b {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "宋体";
+    color: #828282;
+    background: #e3e3e3;
+ font-size: 12px;
+    margin: 0 auto;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+}
+
+.box{ width: 179px; height: auto; margin: 0 auto;}
+.box h3{ width: 174px; height: 30px; line-height: 30px; padding: 35px 0 0 5px; font-weight: 500; font-size: 16px;}
+.box input{ display: block; width: 170px; height: 28px; line-height: 28px; border: #bcbcbc 1px solid; margin-left: 1px; color: #d8d8d8; font-size: 12px; padding-left: 6px; outline: none;}/*去除谷歌苹果的高亮边框*/
+.box-main{ width: 179px; height: auto; margin-top: 8px; background: url("../images/btn.png") no-repeat left bottom; padding-bottom: 18px;}
+.box-main ul{ width: 169px; height: auto; padding: 5px 0 9px 8px; background: #fff; border: 1px solid #d1cfd0; border-bottom: 0 none; overflow: hidden; }
+.box-main  li{ float: left; position: relative; width: auto; height: 25px;  line-height:25px; background: lightpink; padding: 0 14px 0 5px; color: #fff; margin: 5px 4px 0 0;  display: inline; white-space: nowrap;}
+.box-main i{ position: absolute; right: 4px;top:6px; width: 7px; height: 7px;line-height: 7px; text-align: center;font-size:12px; font-style: normal; cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
